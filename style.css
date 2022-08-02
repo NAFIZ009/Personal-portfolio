@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+
+body{
+    font-family: "poppins";
+    height: 100vh;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 87, 87);
+}
+.navbar-brand{
+    color: #2A2C25;
+    letter-spacing: 1.8px;
+    transition: all 0.3s ease;
+}
+.navbar-brand span{
+    color: rgb(255, 87, 87);
+}
+
+.card-title{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.7rem;
+    font-weight: 700;
+    /* line-height: 3.4rem; */
+    color: black;
+}
+.card-title span{
+    color:rgb(255, 87, 87) ;
+}
+.card-text{
+    color: #7d7d7d;
+}
+.oreng{
+    background-color:rgb(255, 87, 87) ;
+}
+.border-orang{
+    border: 1px solid rgb(255, 87, 87);
+    color:rgb(255, 87, 87) ;
+}
+.bar-con{
+    background-color:#EBEBEB ;
+}
+.html{
+    background-color:#FF6A38;
+    width: 60%;
+}
+.css{
+    background-color: #144FFF;
+    width: 50%;
+}
+.js{
+    background-color: #FFEA05;
+    width: 25%;
+}
+.side-img{
+    height: 600px;
+    overflow: hidden;
+}
+.side-img img{
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
+section{
+    width: 50%;
+}
+@media screen and (max-width:1010px) {
+    .ft{
+        align-items: flex-end;
+    }
+}
+@media screen and (max-width:768px) {
+    section{
+        width: 100%!important;
+    }
+    .ft{
+        align-items: center;
+    }
+    .det-sec{
+        order: 2;
+    }
+}
+@media screen and (max-width:490px){
+    .side-img{
+        height: 500px;
+    }
+    .side-img img{
+        height: 500px;
+    }
+}
+@media screen and (max-width:405px){
+    .side-img{
+        height: 450px;
+    }
+    .side-img img{
+        height: 450px;
+    }
+    .ft{
+        align-items: flex-end;
+        justify-content: space-between!important;
+    }
+}
+
+.whitehover:hover {
+    background-color:rgb(255, 87, 87) ;
+    border: none;
+}
+.whitehover:hover a{
+    color: white;
+}
+a.navbar-brand:hover{
+    transform: scale(1.2);
+    
+}
