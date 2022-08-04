@@ -1,118 +1,223 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap");
 
-body{
-    font-family: "poppins";
-    height: 100vh;
+body {
+  font-family: "poppins";
+  height: 100vh;
 }
-img{
-    max-width: 100%;
+img {
+  max-width: 100%;
 }
-a{
-    text-decoration: none;
-    color: rgb(255, 87, 87);
+a {
+  text-decoration: none;
+  color: rgb(255, 87, 87);
 }
-.navbar-brand{
-    color: #2A2C25;
-    letter-spacing: 1.8px;
-    transition: all 0.3s ease;
+.navbar-brand {
+  color: #2a2c25;
+  letter-spacing: 1.8px;
+  transition: all 0.3s ease;
 }
-.navbar-brand span{
-    color: rgb(255, 87, 87);
+.navbar-brand span {
+  color: rgb(255, 87, 87);
 }
-
-.card-title{
-    font-family: 'Raleway', sans-serif;
-    font-size: 2.7rem;
-    font-weight: 700;
-    /* line-height: 3.4rem; */
-    color: black;
+.hm {
+  transition: all 0.3s ease;
 }
-.card-title span{
-    color:rgb(255, 87, 87) ;
+.hm:hover {
+  transform: scale(1.1);
 }
-.card-text{
-    color: #7d7d7d;
+.d {
+  transition: all 0.3s ease;
 }
-.oreng{
-    background-color:rgb(255, 87, 87) ;
+.d {
+  display: none;
 }
-.border-orang{
-    border: 1px solid rgb(255, 87, 87);
-    color:rgb(255, 87, 87) ;
+.b:hover {
+  color: rgb(255, 87, 87);
 }
-.bar-con{
-    background-color:#EBEBEB ;
+.b:hover .d {
+  display: inline-block;
 }
-.html{
-    background-color:#FF6A38;
-    width: 60%;
+.card-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 2.7rem;
+  font-weight: 700;
+  /* line-height: 3.4rem; */
+  color: black;
 }
-.css{
-    background-color: #144FFF;
-    width: 50%;
+.card-title span {
+  color: rgb(255, 87, 87);
 }
-.js{
-    background-color: #FFEA05;
-    width: 25%;
+.card-text {
+  color: #7d7d7d;
 }
-.side-img{
-    height: 600px;
-    overflow: hidden;
+.oreng {
+  background-color: rgb(255, 87, 87);
 }
-.side-img img{
-    height: 600px;
-    width: 100%;
-    object-fit: cover;
+.border-orang {
+  border: 1px solid rgb(255, 87, 87);
+  color: rgb(255, 87, 87);
 }
-section{
-    width: 50%;
+.bar-con {
+  background-color: #ebebeb;
 }
-@media screen and (max-width:1010px) {
-    .ft{
-        align-items: flex-end;
-    }
+.html {
+  background-color: #ff6a38;
+  width: 60%;
 }
-@media screen and (max-width:768px) {
-    section{
-        width: 100%!important;
-    }
-    .ft{
-        align-items: center;
-    }
-    .det-sec{
-        order: 2;
-    }
+.css {
+  background-color: #144fff;
+  width: 50%;
 }
-@media screen and (max-width:490px){
-    .side-img{
-        height: 500px;
-    }
-    .side-img img{
-        height: 500px;
-    }
+.js {
+  background-color: #ffea05;
+  width: 25%;
 }
-@media screen and (max-width:405px){
-    .side-img{
-        height: 450px;
-    }
-    .side-img img{
-        height: 450px;
-    }
-    .ft{
-        align-items: flex-end;
-        justify-content: space-between!important;
-    }
+.side-img {
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+}
+.side-img img {
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+}
+section {
+  width: 50%;
+}
+@media screen and (max-width: 1010px) {
+  .ft {
+    align-items: flex-end;
+  }
+}
+@media screen and (max-width: 768px) {
+  section {
+    width: 100% !important;
+  }
+  .ft {
+    align-items: center;
+  }
+  .d {
+    display: inline-block;
+  }
+  .det-sec {
+    order: 2;
+  }
+}
+@media screen and (max-width: 490px) {
+  .side-img {
+    height: 500px;
+  }
+  .side-img img {
+    height: 500px;
+  }
+}
+@media screen and (max-width: 405px) {
+  .side-img {
+    height: 450px;
+  }
+  .side-img img {
+    height: 450px;
+  }
+  .ft {
+    align-items: flex-end;
+    justify-content: space-between !important;
+  }
 }
 
 .whitehover:hover {
-    background-color:rgb(255, 87, 87) ;
-    border: none;
+  background-color: rgb(255, 87, 87);
+  border: none;
 }
-.whitehover:hover a{
-    color: white;
+.whitehover:hover a {
+  color: white;
 }
-a.navbar-brand:hover{
-    transform: scale(1.2);
+a.navbar-brand:hover {
+  transform: scale(1.2);
+}
+.s-l a:hover {
+  color: white;
+}
+.name {
+  display: inline-block;
+  color: rgb(255, 87, 87);
+  animation: nameAnim 10s ease-in-out infinite alternate;
+}
+@keyframes nameAnim {
+  0% {
+    color: rgb(255, 87, 87);
+  }
+  25% {
+    color: #4cc9f0;
+  }
+  50% {
+    color: #7209b7;
+  }
+  75% {
+    color: #3a0ca3;
+  }
+  100% {
+    color: #4361ee;
+  }
+}
+.dt {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.react {
+  left: 8%;
+  top: 50%;
+  animation: ranim 5s ease-in-out infinite alternate;
+}
+.node {
+  left: 22%;
+  animation: janim 4s ease-in infinite alternate;
+}
+.cs {
+  left: 75%;
+  animation: canim 3.6s ease-in-out infinite alternate;
+}
+.htm {
+  color: #ff6a38;
+  left: 85%;
+  animation: hanim 4s ease-in-out infinite alternate;
+}
+.animall {
+  font-size: 4rem;
+  position: absolute;
+}
+@keyframes ranim {
+  0% {
+    top: 50%;
+  }
+  100% {
+    top: 0%;
+  }
+}
+@keyframes canim {
+  0% {
+    top: 26%;
+  }
+  100% {
+    top: 0%;
+  }
+}
+@keyframes hanim {
+  0% {
+    top: 14%;
     
+  }
+  100% {
+    top: 62%;
+  }
+}
+@keyframes janim {
+  0% {
+    top: 35%;
+  }
+  100% {
+    top: 0%;
+  }
 }
